@@ -8,8 +8,8 @@
 
 ## Aluno
 
-- nome: 
-- matrícula: 
+- nome: Larissa Smamara Xavier Pedro de Lima
+- matrícula: 20211014040070
 
 ## Respostas dos exercícios
 
