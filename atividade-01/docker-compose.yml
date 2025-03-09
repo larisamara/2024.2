@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  servidor:
+    build: ./servidor
+    ports:
+      - "8000:8000"
+    networks:
+      - minha_rede
+
+  cliente:
+    build: ./cliente
+    depends_on:
+      - servidor
+    networks:
+      - minha_rede
+networks:
+  minha_rede:
